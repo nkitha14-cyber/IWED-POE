@@ -1,2 +1,2 @@
 # My-First-Repository
-This is my first ever repository for my Introduction to web development
+This website stores code using HTML, CSS and Javascript for the IWED POE.
