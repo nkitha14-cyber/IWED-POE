@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content= width="device-width,initial-scale=1.0 ">
-    <title>Kwa NK|Home</title>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0 ">
+    <meta name="description" content="Kwa NK is a premium restaurant in Cape Town combining South African braai culture with international cuisine. Book your table today for an unforgettable dining experience.">
+    <title>Kwa NK | Premium Braai & Restaurant in Cape Town</title>
 
      <link rel="stylesheet" href="../CSS/style.css">
 
@@ -13,7 +14,7 @@
    
 <header>
     <div>
-        <img src="../Images/Logo.png" alt="KwaNK Logo" width="120"/>
+        <img src="../Images/Logo.png" alt="KwaNK Restaurant Logo" width="120"/>
     </div>
 
     <nav>
@@ -26,15 +27,21 @@
 </header>
 
 <main>
-    <section>
+    <section class="hero">
     <h2>Wamkelekile KwaNK</h2>
+    
     <p>Experience our <b>premium shiyanyama</b> with global cuisines</p>
-    <a href="contact.html"> book a reservation</a>
+
+    <p id="welcome-message"></p>
+
+    <a class="button-link" href="contact.html"> book a reservation</a>
 
     </section>
-
+   
     <section>
         <h2>Featured dishes</h2>
+   
+
     <ul>
         <li>Signature beef burger - R130</li>
         <li>Grilled sirloin steak - R230</li>
@@ -43,10 +50,20 @@
     </ul>
     </section>
 
+    <section>
+        <h2>Today's Specials</h2>
+        <div id="specials"></div>
+    </section>
+
 </main>
 
-    
+<footer>
+    <p>&copy; <span id="current-year">2026</span> Kwa NK </p>
+    <p>For the culture; For the people.</p>
+</footer>
 
+    
+<script src="../JavaScript/script.js"></script>
 </body>
 
 </html>
